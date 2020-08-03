@@ -1,0 +1,144 @@
+.hSpaceLeft{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 0px;
+}
+.hSpaceMiddle{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.hSpaceRight{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.cbFunction{
+    display: flex;
+    min-width: 975px;
+}
+
+.cbFunction a{
+    text-decoration: none;
+}
+
+.cbTitle{
+    font-size: 24px;
+    font-weight: bold;
+    cursor: default;
+    text-decoration: underline;
+}
+
+.cbSubtitle{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.cbSearch{
+    font-size: 18px;
+    box-shadow: 1px 1px 5px #aaa;
+    padding-left: 5px;
+}
+
+.yearSearch {
+    font-size: 18px;
+    box-shadow: 1px 1px 5px #aaa;
+    margin-left:  5%;
+    padding-left: 5px;
+}
+
+.billingRecordTbl {
+    text-align: center;
+    width: 100%;
+    box-shadow: 1px 1px 5px #aaa;
+    cursor: default;
+    transition:box-shadow 0.6s; 
+    border-collapse: collapse;
+}
+
+.billingRecordTbl tr:hover{
+    box-shadow: 0px 0px 8px #2c478e;
+}
+.billingRecordTbl tr,td,th{
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+}
+.billingRecordTbl thead{
+    background-color: #aaa;   
+    color: white;
+}
+.billingRecordTbl td,th{
+    padding: 15px;
+}
+.billingRecordTbl a{
+    text-decoration: none;
+}
+.billingRecordTbl a:hover{
+    font-weight: bold;
+    transition-duration: 0.6s;
+}
+.billingRecordTbl button{
+    height: 35px;
+    width: 100px;
+    padding: 5px;    
+    border-radius: 12px;
+    font-size: 18px;
+    box-shadow: 1px 1px 5px #aaa;
+    transition:box-shadow 0.6s;
+    cursor: pointer;
+    background-color:#6699ff;
+    color:white;
+}
+
+.flexibleD {
+    display: flex;
+}
+.chTitle a{
+    text-decoration: none;
+    color: black;
+}
+.chTitle a:hover{
+    color:#aaa;
+    transition-duration: 0.6s;
+}
+button{
+    border-radius: 12px;
+    background-color: #0d98be;
+    border: 1px solid transparent;
+    margin-left: 45%;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 16px;
+    width: 100px;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    text-decoration: none;
+}
+button:hover{
+    background-color:#879092;
+    transition-duration: 0.6s;
+}
+input[type=text],[type=date]{
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 30%;
+    height:50px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.theadA a{
+    color: white;   
+}
+.theadA a:hover{
+    color: #2c478e;
+}

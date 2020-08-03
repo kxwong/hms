@@ -1,0 +1,46 @@
+.hSpaceLeft{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 10px 0px;
+}
+.hSpaceRight{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 10px;
+}
+.roomDetail1 p{
+    font-size: 20px;
+}
+.floorPlanItem{
+    width: 450px;
+    height: 250px;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+.floorPlanItem:hover{
+    box-shadow: 3px 3px 5px #aaa;
+}
+
+.roomDiv{
+    margin-left: 5%;
+    display: inline-block;
+}
+.roomDiv a{
+    text-decoration: none;
+}
+.roomDiv a:hover{
+    font-weight: bold;
+}
+.roomDiv p{
+    width: 80%;
+}
+.chTitle a{
+    text-decoration: none;
+    color: black;
+}
+.chTitle a:hover{
+    color:#aaa;
+    transition-duration: 0.6s;
+}

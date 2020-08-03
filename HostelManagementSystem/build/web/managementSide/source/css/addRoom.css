@@ -1,0 +1,89 @@
+table td{
+    padding: 10px;
+}
+.cbLabel{
+    font-size: 24px;
+}
+.cbInput{
+    background-color: #f2f2f2;
+    border-width: 0px;
+    outline-width: 0;
+    height: 32px;
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 22px;
+    color: black;
+    box-shadow: 1px 1px 5px #cccccc;
+    transition: box-shadow 0.8s;
+    width: 200px;
+}
+.cbInput:focus{
+    box-shadow: 1px 1px 8px #999999;
+}
+.cBAddright{
+    float: right;
+}
+.cbAdd{
+    margin-top: 20px;
+    width: 150px;
+    background-color: #2c478e;
+    border-width: 0px;
+    outline-width: 0;
+    height: 32px;
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 1px 1px 5px #cccccc;
+    transition: box-shadow 0.8s;
+    text-indent: 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.cbAdd:hover{
+    background-color: white;
+    color:#2c478e;
+    box-shadow: 1px 1px 8px #999999;
+}
+.cbAdd:focus{
+    box-shadow: 1px 1px 8px #999999;
+}
+canvas{
+    cursor:crosshair;
+}
+#canvasDiv {
+    position:relative;
+    overflow:hidden;
+    z-index:0;
+}
+#canvasDiv > div {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0.5;
+    background-color:white;
+    cursor:pointer;
+    transition-duration: 0.4s;
+}
+#canvasDiv > div:hover {
+    opacity:0.9;
+    transition-duration: 0.4s;
+}
+.room{
+    animation: breathing 2.5s ease-out infinite normal;
+}
+@keyframes breathing{
+    0% {
+        background-color:white;
+    }
+
+    45% {
+        background-color:blue;
+    }
+
+    100% {
+        background-color:white;
+    }
+}

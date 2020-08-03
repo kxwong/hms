@@ -1,0 +1,131 @@
+.cbStatus{
+    background-color: #f2f2f2;
+    display:flex;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #aaa;
+    transition:box-shadow 0.6s; 
+}
+.cbStatus:hover{
+    box-shadow: 1px 1px 0px white;
+}
+.cbsOption{
+    font-size: 22px;
+    width: 34%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.cbsOption:hover{
+    font-size: 24px;
+    margin: -5px;
+    font-weight: bold;
+    background-color: white;
+}
+.cbsChoice{
+    font-size: 24px;
+    margin: -5px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.cbFunctionList{
+    display: flex;
+}
+.cbFunctionList a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.cbfOption{
+    background-color: #2c478e; 
+    height: 24px;
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px #555;
+    width: 220px;
+    text-indent: 0px;
+    padding-top: 4px;
+}
+.cbfOption:hover{
+    background-color: #1d3170; 
+    color: white;
+    box-shadow: 1px 1px 5px #222;
+}
+.cbList table{
+    width: 100%;
+    box-shadow: 1px 1px 5px #aaa;
+    cursor: default;
+    transition:box-shadow 0.6s; 
+}
+.cbList table:hover{
+    box-shadow: 0px 0px 8px #2c478e;
+}
+.cbList table,tr,td,th{
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+}
+.cbList th{
+    background-color: #f6f6f6;
+}
+.cbList th a{
+    background-color: #f6f6f6;
+    text-decoration: none;
+    color: black;
+}
+.cbList td,th{
+    padding: 15px;
+}
+.cbrlRequest{
+    color: #2c478e;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cbSearchCriteria{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f2f2f2;
+    box-shadow: 1px 1px 5px #cccccc;
+    border-radius:10px;
+    transition:box-shadow 0.6s; 
+}
+.cbSearchCriteria:hover{
+    box-shadow: 0px 0px 8px #2c478e;
+}
+.cbscOption{
+    margin:10px;
+    width: 220px;
+    background-color: white;
+    border-width: 0px;
+    outline-width: 0;
+    height: 32px;
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 1px 1px 5px #cccccc;
+    transition: box-shadow 0.8s;
+}
+.cbscOption:focus{
+    box-shadow: 1px 1px 8px #999999;
+}
+.cbSearchCriteria .thridLine{
+    text-align: right;
+}
+.cbscSearch{
+    text-indent: 0px;
+    width: 110px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.cbscSearch:hover{
+    background-color: #2c478e;
+    color:white;
+    box-shadow: 1px 1px 8px #999999;
+}
+.cbStatus a{
+    text-decoration: none;
+    color: black;
+}

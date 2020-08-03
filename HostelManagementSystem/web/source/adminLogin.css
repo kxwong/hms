@@ -1,0 +1,89 @@
+.hSpaceLeft{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 10px 0px;
+}
+.hSpaceRight{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 10px;
+}
+.loginContent{   
+    padding: 20px;
+    margin-left: calc( calc(100vw - 540px) / 2 ); 
+    margin-right: calc( calc(100vw - 540px) / 2 ); 
+    min-height: calc(100vh - 84px);
+    width: 500px;
+    height: auto;
+}
+@media only screen and (max-width: 1000px) { 
+    .registrationContent{
+        margin-left:0px;
+        margin-right:0px;
+    }
+}
+.rgBody{
+    background-color: rgba(70,141,190,0.6);   
+}
+.loginBody{
+    min-height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #cccccc;
+    width: 100%;
+}
+.formHeader {
+    margin:20px;
+}
+.formHeader a{
+    text-decoration: none;
+    color:#33ccff;
+}
+.logo{
+    margin-top: 50px;
+    width:100%;
+}
+.formHeader a:hover{
+    font-weight: bold;
+}
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+}
+input[type=submit]{
+    margin-top: 10px;
+    border-radius: 16px;
+    background-color: #0d98be;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 16px;
+    max-width: 300px;
+    min-width: 100px;
+    padding: 0 35px;
+    text-align: center;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type=submit]:hover{
+    background-color:#879092;
+    color: #33ccff;
+    transition-duration: 0.3s;
+}
+.middleLoginPart {
+    height: 250px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

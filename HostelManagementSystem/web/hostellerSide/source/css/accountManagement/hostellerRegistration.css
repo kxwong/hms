@@ -1,0 +1,217 @@
+.hSpaceLeft{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 10px 0px;
+}
+.hSpaceRight{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 10px;
+}
+.registrationContent{   
+    padding: 20px;
+    margin-left: calc( calc(100vw - 590px) / 2 ); 
+    margin-right: calc( calc(100vw - 590px) / 2 ); 
+    min-height: calc(100vh - 84px);
+    width: 550px;
+    height: auto;
+}
+@media only screen and (max-width: 1000px) { 
+    .registrationContent{
+        margin-left:0px;
+        margin-right:0px;
+    }
+}
+.customDropdown {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color:black;
+    margin-top: 5px;
+}
+.rgBody{
+    background-color: rgba(70,141,190,0.6);   
+}
+.registrationBody{
+    min-height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #cccccc;
+    width: 100%;
+}
+.registrationBody button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    background-color: #0d98be;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 16px;
+    max-width: 300px;
+    min-width: 100px;
+    padding: 0 35px;
+    text-align: center;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.registrationBody button:hover{
+    background-color:#879092;
+}
+.formHeader {
+    margin:20px;
+}
+.formHeader a{
+    text-decoration: none;
+    color:#33ccff;
+}
+.logo{
+    margin-top: 30px;
+    width: 100%;    
+}
+.formHeader a:hover{
+    font-weight: bold;
+}
+input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 18px;
+}
+input[type=password]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 18px;
+}
+
+input[type=date]{
+    padding: 8px 12px;
+    border-radius: 4px;  
+    font-size: 16px;
+}
+
+.personalInfoDiv {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.personalInfoDiv label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.personalInfoDiv input[type=radio]{
+    margin-top: 10px;
+}
+.personalInfoDiv input[type=date]{
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.workingStatusDiv {
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.workingStatusDiv label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nationailityDiv{
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nationailityDiv label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.picPreview{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 3px 3px 5px #aaa;
+}
+
+.passwordRequirementDiv{
+    height: 100px;
+
+}
+.passwordlbl{
+    font-size: 16px;
+    padding: 7px;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+@keyframes logoFadein{
+    from{
+        transform: translateY(-100%);
+        opacity:0;
+    } 
+    to{
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+
+.cover{
+    width: 30vw;
+    height: 50vh;
+    margin-left: 35vw;
+    margin-top: 20vh;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    font-size: 38px;
+    font-weight: 900;
+    z-index: 2;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px grey;
+    animation-name:logoFadein;
+    animation-duration:1.5s;
+}
+.popup{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+}
+.message{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 22px;
+    text-align: center;
+    cursor: default;
+}
+.popUpicon{
+    width: 13vw;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+

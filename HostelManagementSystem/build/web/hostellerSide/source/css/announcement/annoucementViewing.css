@@ -1,0 +1,102 @@
+.hSpaceLeft{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 10px 0px;
+}
+.hSpaceRight{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 10px;
+}
+.reportCriteria p{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    background-color: #0d98be;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 16px;
+    padding: 0 35px;
+    text-align: center;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type=text],[type=date]{
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+}
+button:hover{
+    background-color:#879092;
+}
+.criteriaSearching table{
+    width: 100%;
+    border-collapse: collapse;
+    border:0px solid transparent;
+}
+.criteriaSearching td{
+    padding: 5px;
+}
+.criteriaSearching p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.caseHistorytb table{
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px #aaa;
+    cursor: default;
+    transition:box-shadow 0.6s; 
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+}
+.caseHistorytb tr:hover{
+    box-shadow: 0px 0px 8px #2c478e;
+}
+.caseHistorytb thead{
+    background-color: #aaa;
+    color: white;
+}
+.caseHistorytb caption{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.caseHistorytb td,th{
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+    padding: 15px;
+}
+.caseHistorytb a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.caseHistorytb a:hover{
+    color:#2c478e;
+}
+.chTitle a{
+    text-decoration: none;
+    color: black;
+}
+.chTitle a:hover{
+    color:#aaa;
+    transition-duration: 0.6s;
+}
+.theadA a{
+    color: white;
+    
+}

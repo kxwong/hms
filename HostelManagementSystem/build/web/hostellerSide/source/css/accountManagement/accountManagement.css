@@ -1,0 +1,129 @@
+.hSpaceLeft{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 10px 0px;
+}
+.hSpaceRight{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 10px;
+}
+.profilePic{
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    border-color:#000000;
+    border: 1px solid transparent;
+    box-shadow: 3px 3px 5px #aaa;
+}
+.profilePicPanel{
+    width: 22%;
+    height: 20%;
+    float: left;
+}
+.profileDetails {
+    margin-left: 25%;
+}
+.profileDetails table{  
+    width: 100%;
+    box-shadow: 3px 3px 5px #aaa;
+    cursor: default;
+    transition:box-shadow 0.6s;     
+}
+.profileDetails tr:hover{
+    box-shadow: 0px 0px 8px #2c478e;
+}
+.profileDetails table,tr,td,th{
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+}
+.profileDetails thead{
+    background-color: #f6f6f6;   
+}
+.profileDetails caption{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.profileDetails td,th{
+    padding: 15px;
+}
+.editBtn{
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-color: #0d98be;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    width: 10%;
+    padding: 12px 35px;
+    text-align: center;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    text-decoration: none;    
+}
+.editBtn:hover{
+    background-color:#879092;   
+}
+a{
+    text-decoration: none;
+}
+
+.lblTxt{
+    background-color: #aaa;
+    color: white;
+    width:45%;
+}
+
+@keyframes logoFadein{
+	from{
+            transform: translateY(-100%);
+            opacity:0;
+	} 
+	to{
+            transform: translateY(0);
+            opacity:1;
+	}
+}
+
+.cover{
+    width: 30vw;
+    height: 50vh;
+    margin-left: 35vw;
+    margin-top: 20vh;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    font-size: 38px;
+    font-weight: 900;
+    z-index: 2;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px grey;
+    animation-name:logoFadein;
+    animation-duration:1.5s;
+}
+.popup{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+}
+.message{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 22px;
+    text-align: center;
+    cursor: default;
+}
+.popUpicon{
+    width: 13vw;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.name{
+    margin-top: 10px;
+}

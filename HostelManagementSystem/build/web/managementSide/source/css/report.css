@@ -1,0 +1,36 @@
+.reportContent{
+    width: 1000px;
+    background-color: white; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.reportInside{
+    padding:100px;
+}
+img{
+    width:600px;
+}
+table{
+    font-size: 18px;
+    border-collapse: collapse;
+}
+thead tr th{
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    text-align: left;
+}
+h1{
+    margin:0px;
+}
+h2{
+    margin:0px;
+}
+h3{
+    margin:0px;
+}
+h4{
+    margin:0px;
+}
+h5{
+    margin:0px;
+}

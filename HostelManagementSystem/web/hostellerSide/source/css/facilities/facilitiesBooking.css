@@ -1,0 +1,192 @@
+.hSpaceLeft{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 10px 0px;
+}
+.hSpaceRight{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 10px;
+}
+.facilityDetail{
+    height: 300px;
+}
+.facilityDetail p{
+    font-size: 20px;
+}
+.facilitiesList{
+    display: block;
+}
+.facilitiesList table{
+    width: 100%;
+    box-shadow: 1px 1px 5px #aaa;
+    cursor: default;
+    transition:box-shadow 0.6s; 
+    border-collapse: collapse;
+}
+.facilitiesList a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.facilitiesList td:hover{
+    box-shadow: 0px 0px 8px #2c478e;
+    cursor: pointer;
+}
+.facilitiesList thead{
+    background-color: #aaa;
+    color: white;
+}
+.facilitiesList caption{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.facilitiesList th{
+    background-color:#2c478e;
+    border-collapse: collapse;
+    padding: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    border: 2px solid #f2f2f2 ;
+}
+.facilitiesList td{    
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    padding: 8px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: 1px solid #aaa;
+}
+
+input[type=date], .courtDropdwn{
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.rightPanel{
+    width: 100%;
+    display: inline-block;
+    margin-top: 2%;
+    box-shadow: 3px 3px 5px #aaa;
+    padding: 20px;
+}
+
+.chTitle a{
+    text-decoration: none;
+    color: black;
+}
+.chTitle a:hover{
+    color:#aaa;
+    transition-duration: 0.6s;
+}
+button{
+    margin-top: 5px;
+    border-radius: 12px;
+    background-color: #0d98be;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 16px;
+    padding: 0 35px;
+    text-align: center;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 20%;
+}
+button:hover{
+    background-color:#879092;
+}
+
+.unactiveTimeslot{
+    border-left: none;
+    border-right: none;
+}
+
+.activeTimeslot{
+    background-color:#66ff66
+}
+
+
+.bookCapacityOpt{
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 30%;
+    font-size: 16px;
+    margin-top: 5px; 
+}
+.upperPart{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.facilityPic{
+    width: 500px;
+    height: 350px;
+    box-shadow: 2px 2px 8px #2c478e;   
+}
+
+.facilityPicPanel{
+    width:50%;
+    height:300px;
+    display:inline-block;
+    border-radius: 12px; 
+    box-shadow: 3px 3px 5px #aaa;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reminderPanel{
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    font-size: 23px;
+}
+
+.detailTable{
+    width: 100%;
+    box-shadow: 1px 1px 5px #aaa;
+    cursor: default;
+    transition:box-shadow 0.6s; 
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+}
+.detailTable tr{    
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+}
+.detailTable tr:hover{
+    box-shadow: 0px 0px 8px #2c478e;
+}
+.detailTable td{    
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+    padding: 15px;
+
+}
+
+
+.labelTd{
+    background-color:#aaa;
+    color:white;
+    width: 30%;
+}
+.bookBtn{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 89%;
+}

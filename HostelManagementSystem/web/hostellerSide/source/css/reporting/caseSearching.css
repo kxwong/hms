@@ -1,0 +1,111 @@
+.hSpaceLeft{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 10px 0px;
+}
+.hSpaceRight{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 10px;
+}
+.reportCriteria p{
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background-color: #0d98be;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 16px;
+    padding: 0 35px;
+    text-align: center;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type=text],[type=date]{
+    padding: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 90%;
+    font-size: 18px;
+    margin-top: 5px;
+}
+button:hover{
+    background-color:#879092;
+}
+.customDropdown {
+    width: 90%;
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    color:black;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+.criteriaSearching table{
+    width: 100%;
+    border-collapse: collapse;
+    border:0px solid transparent;
+}
+.criteriaSearching p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.caseHistorytb table{
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px #aaa;
+    cursor: default;
+    transition:box-shadow 0.6s; 
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+}
+.caseHistorytb tr:hover{
+    box-shadow: 0px 0px 8px #2c478e;
+}
+.caseHistorytb thead{
+    background-color: #aaa;
+    color:white;
+}
+.caseHistorytb caption{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.caseHistorytb td,th{
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+    padding: 15px;
+}
+.chTitle a{
+    text-decoration: none;
+    color: black;
+}
+.chTitle a:hover{
+    color:#aaa;
+    transition-duration: 0.6s;
+}
+.cbContent a{
+    text-decoration: none;
+    color:#0d98be;
+}
+.cbContent a:hover{
+    color:#2c478e;
+    transition-duration: 0.6s;
+}
+.labelTxt{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.theadA a{
+    color: white;
+}

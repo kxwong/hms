@@ -1,0 +1,142 @@
+.hSpaceLeft{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 10px 0px;
+}
+.hSpaceRight{
+    width: 20px;
+    height: 64px;
+    background-color: #2c478e;
+    border-radius: 0px 0px 0px 10px;
+}
+.roomPic{
+    width:400px;
+    height:350px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px #aaa;
+}
+.roomDetail1{
+    height: 350px;
+}
+.roomDetail1 p{
+    font-size: 20px;
+}
+.roomList{
+    width:55%;
+    float: left;
+    margin-left: 5%;
+}
+.roomList table{
+    width: 100%;
+    box-shadow: 1px 1px 5px #aaa;
+    cursor: default;
+    transition:box-shadow 0.6s; 
+    border: 2px solid #f2f2f2;
+    border-collapse: collapse;
+}
+.roomList tr:hover{
+    box-shadow: 0px 0px 8px #2c478e;
+}
+.roomList thead{
+    background-color: #f6f6f6;   
+}
+.roomList caption{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.roomList td,th{
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    padding: 15px;
+}
+input[type=date]{
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.roomList th{
+    background-color:#f2f2f2;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background-color: #0d98be;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    line-height: 16px;
+    padding: 0 35px;
+    text-align: center;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+    width:160px;
+}
+button:hover{
+    background-color:#879092;
+}
+.chTitle a{
+    text-decoration: none;
+    color: black;
+}
+.chTitle a:hover{
+    color:#aaa;
+    transition-duration: 0.6s;
+}
+@keyframes logoFadein{
+	from{
+            transform: translateY(-100%);
+            opacity:0;
+	} 
+	to{
+            transform: translateY(0);
+            opacity:1;
+	}
+}
+
+.cover{
+    width: 45vw;
+    height: 50vh;
+    margin-left: 5%;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    font-size: 38px;
+    font-weight: 900;
+    z-index: 2;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px grey;
+    animation-name: logoFadein;
+    animation-duration:1.5s;
+}
+.popup{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+}
+.message{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 22px;
+    text-align: center;
+    cursor: default;
+}
+.popUpicon{
+    width: 13vw;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
