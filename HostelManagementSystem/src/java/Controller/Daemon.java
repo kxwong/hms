@@ -30,7 +30,7 @@ public class Daemon implements ServletContextListener {
         };
 
         long delay = 0;
-        long period = 10 * 1000; // 10 seconds;
+        long period = 1 * 1000; // unit * ms
         timer.schedule(myTask, delay, period);
     }
 
